@@ -4,3 +4,18 @@
 - [ ] Rename jobs to tasks
 - [ ] Else keep the layout and UX to have a compatible Interface.
 - [ ] Release binarys of it and hire the UI Designer 
+
+
+## Notes
+the usefull entrypoint is in 
+
+```shell
+# Main UI 
+/interface/app/%24libraryId/index.tsx
+
+# additional keybindings and env meta
+/interface/app
+
+# additional packages
+/packages/*
+```
