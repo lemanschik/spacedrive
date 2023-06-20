@@ -19,3 +19,15 @@ the usefull entrypoint is in
 # additional packages
 /packages/*
 ```
+
+
+## Dev Notes
+The crap is driven by @tanstack/react-query which is a DoneJS CanJS Observeable Stream clone like million others
+How ever this is a great package to shim as adapter as the spacedrive project depends on it for everything under the hood
+this is the abstraction layer for all Request Response interactions. 
+
+Sure removing react from the stack also helps but can be done incremental. 
+
+to be compatible we only need the above mentioned package. so we can simple do a spacedrive extension for our explorer. 
+project on opfs.zip
+
